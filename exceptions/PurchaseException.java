@@ -1,4 +1,4 @@
 package com.influentialcode.exceptions;
 
-class PurchaseException extends RuntimeException {
+public class PurchaseException extends RuntimeException {
 }

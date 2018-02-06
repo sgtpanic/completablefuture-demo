@@ -13,7 +13,7 @@ import org.slf4j.LoggerFactory;
 import java.time.Instant;
 
 public class CreateOrderSync {
-    private static final Logger LOGGER = LoggerFactory.getLogger(CreateOrderAsync.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(CreateOrderImplAsync.class);
     private static final Injector injector = Guice.createInjector(new StoreModule());
     private static final CatalogDao catalogDao = injector.getInstance(CatalogDao.class);
     private static final PurchasesDao purchaseDao = injector.getInstance(PurchasesDao.class);
