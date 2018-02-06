@@ -10,9 +10,9 @@ import org.slf4j.LoggerFactory;
 @ImplementedBy(CreateOrderImpl.class)
 public abstract class CreateOrder {
     protected static final Logger LOGGER = LoggerFactory.getLogger(CreateOrderImplAsync.class);
-    protected static final int quantityDesired = 3;
-    protected static final int productId = 105;
-    protected static final int customerId = 115;
+    protected static final int QUANTITY_DESIRED = 3;
+    protected static final int PRODUCT_ID = 105;
+    protected static final int CUSTOMER_ID = 115;
 
     protected CatalogDao catalogDao;
     protected PurchasesDao purchaseDao;
