@@ -7,7 +7,7 @@ import com.influentialcode.persistence.WarehouseDao;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-@ImplementedBy(CreateOrderImpl.class)
+@ImplementedBy(CreateOrderImplAsync.class)
 public abstract class CreateOrder {
     protected static final Logger LOGGER = LoggerFactory.getLogger(CreateOrderImplAsync.class);
     protected static final int QUANTITY_DESIRED = 3;
